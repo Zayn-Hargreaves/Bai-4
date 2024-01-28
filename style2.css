@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    margin-right: auto; /* Lề bên phải tự động căn chỉnh */
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-icon {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.mess-icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+/* các icon chỉ có thể thay đổi trên web */
+/* đối với nhiều khối trên 1 thanh thì khối các khối đầu có thế để display là flex hoặc không  *, phần tử chứa cũng để flex/
+/* muốn để thanh đó sát với màn hình thì body để margin = 0 */
+/* phần tử đầu phải căn margin phải, các phần tử còn lại phải margin trái */
